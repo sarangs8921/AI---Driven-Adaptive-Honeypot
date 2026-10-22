@@ -1,0 +1,560 @@
+{
+  "0": [
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.8580605725492656
+    },
+    {
+      "feature": "unique_category_count",
+      "mean_abs_shap": 0.8194244667947707
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.5757284678002383
+    },
+    {
+      "feature": "unique_command_count",
+      "mean_abs_shap": 0.4257299944117711
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.0963412427937562
+    },
+    {
+      "feature": "unique_transition_count",
+      "mean_abs_shap": 0.08866458548014317
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.0726227094881841
+    },
+    {
+      "feature": "min_command_length",
+      "mean_abs_shap": 0.04880554826790188
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.032332248621509005
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.02600319772543818
+    },
+    {
+      "feature": "system_command_count",
+      "mean_abs_shap": 0.02070730176849822
+    },
+    {
+      "feature": "command_diversity",
+      "mean_abs_shap": 0.013360511141384906
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.012807519445425256
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.00984127640916756
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.008068623335308816
+    }
+  ],
+  "1": [
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.7002322909481095
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.6715049500693353
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.3742374605972546
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.3455850941974667
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.27493496001217355
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.22785032857169554
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.22284106387694005
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.2005012756392744
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.1023091882170222
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.09922209895772176
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.09477519465952633
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.09445576476051806
+    },
+    {
+      "feature": "process_command_count",
+      "mean_abs_shap": 0.08676013776780214
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.08597858393125306
+    },
+    {
+      "feature": "system_command_count",
+      "mean_abs_shap": 0.07477136184693753
+    }
+  ],
+  "2": [
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 1.7366368834312567
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.3791417306056797
+    },
+    {
+      "feature": "shell_metacharacter_count",
+      "mean_abs_shap": 0.2902652202397177
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.21149962639660635
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.1678156380178314
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.09109380568325239
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.06507540073495786
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.05933439309162367
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.05297049831189738
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.050347265796787014
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.049631771351887434
+    },
+    {
+      "feature": "command_diversity",
+      "mean_abs_shap": 0.04943912940104848
+    },
+    {
+      "feature": "system_command_count",
+      "mean_abs_shap": 0.03871757994911392
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.03825888900605065
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.03592804221200941
+    }
+  ],
+  "3": [
+    {
+      "feature": "filesystem_command_count",
+      "mean_abs_shap": 0.7513070098895654
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.7230604062217627
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.6180370131257178
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.4271741786739334
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.20410341221925002
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.15777496344808462
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.14286356335693942
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.11994318939338251
+    },
+    {
+      "feature": "persistence_command_count",
+      "mean_abs_shap": 0.11664047967081694
+    },
+    {
+      "feature": "identity_command_count",
+      "mean_abs_shap": 0.11536058192497817
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.11087963869481797
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.08881202240274823
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.08868962852212071
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.08716820015746102
+    },
+    {
+      "feature": "min_command_length",
+      "mean_abs_shap": 0.07694478839180775
+    }
+  ],
+  "4": [
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.9566423105892172
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.6014573466028924
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.5718351298419139
+    },
+    {
+      "feature": "redirection_count",
+      "mean_abs_shap": 0.5018018568679179
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.24926636069944216
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.14991886760975115
+    },
+    {
+      "feature": "unique_transition_count",
+      "mean_abs_shap": 0.14375964367023059
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.1260297738264007
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.09104700178176006
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.08665808653963658
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.07805706910908178
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.07544505640565735
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.07295298133108502
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.07150577054529353
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.06876958076312427
+    }
+  ],
+  "5": [
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.6076262546155566
+    },
+    {
+      "feature": "unique_command_count",
+      "mean_abs_shap": 0.6056308692995082
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.5378326965201327
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.47512152555446074
+    },
+    {
+      "feature": "unique_category_count",
+      "mean_abs_shap": 0.3149491745969255
+    },
+    {
+      "feature": "unique_transition_count",
+      "mean_abs_shap": 0.27841135114777077
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.17316754756615302
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.12463471579882528
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.10834152639812338
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.10614626847819608
+    },
+    {
+      "feature": "process_command_count",
+      "mean_abs_shap": 0.0954962338107877
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.09045204438699131
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.08996615074164831
+    },
+    {
+      "feature": "filesystem_command_count",
+      "mean_abs_shap": 0.07905025302017638
+    },
+    {
+      "feature": "command_diversity",
+      "mean_abs_shap": 0.07465968830363248
+    }
+  ],
+  "6": [
+    {
+      "feature": "persistence_command_count",
+      "mean_abs_shap": 0.719223308437514
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.7102486663396353
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.6590773619571352
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.6415584546146248
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.6095110450236989
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.5600215021151805
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.22613954922838275
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.15578766030691815
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.12259926516623446
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.10805549032234055
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.09153004852739133
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.08826189468004628
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.0763775860944314
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.06401398639486994
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.06330979300515292
+    }
+  ],
+  "7": [
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 2.24845823381422
+    },
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.24613437408140929
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.15353965637648392
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.1427094280416426
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.09241617558722587
+    },
+    {
+      "feature": "persistence_command_count",
+      "mean_abs_shap": 0.08323343804104641
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.06388159335544966
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.05446919337509032
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.05067059916555704
+    },
+    {
+      "feature": "min_command_length",
+      "mean_abs_shap": 0.036431043839322344
+    },
+    {
+      "feature": "identity_command_count",
+      "mean_abs_shap": 0.03435269791330927
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.03300528689792371
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.03200281115187874
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.025585468009150663
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.02406900481047652
+    }
+  ],
+  "8": [
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.7084383409344431
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.6138682744732489
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.5638196398998069
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.3080461622881222
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.22465521018792423
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.21392378076789392
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.1361575984571587
+    },
+    {
+      "feature": "filesystem_command_count",
+      "mean_abs_shap": 0.12013889248559112
+    },
+    {
+      "feature": "unique_category_count",
+      "mean_abs_shap": 0.11728001345891638
+    },
+    {
+      "feature": "process_command_count",
+      "mean_abs_shap": 0.11313077428020786
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.10764081647490124
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.10666139620610429
+    },
+    {
+      "feature": "persistence_command_count",
+      "mean_abs_shap": 0.10090414571519606
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.09973828340495258
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.08128361178790881
+    }
+  ]
+}

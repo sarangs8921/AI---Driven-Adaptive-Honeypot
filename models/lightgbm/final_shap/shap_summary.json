@@ -1,0 +1,170 @@
+{
+  "dataset_records": 5040,
+  "feature_count": 30,
+  "class_count": 9,
+  "features": [
+    "duration_ms",
+    "event_count",
+    "command_count",
+    "unique_command_count",
+    "avg_command_length",
+    "std_command_length",
+    "min_command_length",
+    "repeated_command_count",
+    "command_diversity",
+    "avg_command_gap",
+    "std_command_gap",
+    "max_command_gap",
+    "shell_metacharacter_count",
+    "redirection_count",
+    "absolute_path_count",
+    "option_count",
+    "identity_command_count",
+    "system_command_count",
+    "filesystem_command_count",
+    "process_command_count",
+    "network_command_count",
+    "read_command_count",
+    "interpreter_command_count",
+    "privilege_command_count",
+    "file_modify_command_count",
+    "transfer_command_count",
+    "persistence_command_count",
+    "unique_category_count",
+    "transition_count",
+    "unique_transition_count"
+  ],
+  "classes": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "global_importance": [
+    {
+      "feature": "interpreter_command_count",
+      "mean_abs_shap": 0.646825687650298
+    },
+    {
+      "feature": "privilege_command_count",
+      "mean_abs_shap": 0.6085372806391678
+    },
+    {
+      "feature": "absolute_path_count",
+      "mean_abs_shap": 0.4002390618995605
+    },
+    {
+      "feature": "avg_command_length",
+      "mean_abs_shap": 0.30697830612220073
+    },
+    {
+      "feature": "option_count",
+      "mean_abs_shap": 0.22287909104897163
+    },
+    {
+      "feature": "file_modify_command_count",
+      "mean_abs_shap": 0.1853993955709417
+    },
+    {
+      "feature": "unique_category_count",
+      "mean_abs_shap": 0.157716117547509
+    },
+    {
+      "feature": "event_count",
+      "mean_abs_shap": 0.13117251176305447
+    },
+    {
+      "feature": "unique_command_count",
+      "mean_abs_shap": 0.12949204325616057
+    },
+    {
+      "feature": "persistence_command_count",
+      "mean_abs_shap": 0.12246515992221306
+    },
+    {
+      "feature": "filesystem_command_count",
+      "mean_abs_shap": 0.12102164230413372
+    },
+    {
+      "feature": "transfer_command_count",
+      "mean_abs_shap": 0.09376097949241585
+    },
+    {
+      "feature": "network_command_count",
+      "mean_abs_shap": 0.08266474794109677
+    },
+    {
+      "feature": "std_command_length",
+      "mean_abs_shap": 0.07873417937218517
+    },
+    {
+      "feature": "read_command_count",
+      "mean_abs_shap": 0.07706830400756375
+    },
+    {
+      "feature": "duration_ms",
+      "mean_abs_shap": 0.07502317876181117
+    },
+    {
+      "feature": "std_command_gap",
+      "mean_abs_shap": 0.07182422590393382
+    },
+    {
+      "feature": "redirection_count",
+      "mean_abs_shap": 0.07108615188170485
+    },
+    {
+      "feature": "unique_transition_count",
+      "mean_abs_shap": 0.06731135361766546
+    },
+    {
+      "feature": "avg_command_gap",
+      "mean_abs_shap": 0.06226627413237101
+    },
+    {
+      "feature": "max_command_gap",
+      "mean_abs_shap": 0.056907477324363624
+    },
+    {
+      "feature": "process_command_count",
+      "mean_abs_shap": 0.040904067276068865
+    },
+    {
+      "feature": "shell_metacharacter_count",
+      "mean_abs_shap": 0.03884442315606414
+    },
+    {
+      "feature": "command_diversity",
+      "mean_abs_shap": 0.03780229478900759
+    },
+    {
+      "feature": "system_command_count",
+      "mean_abs_shap": 0.036623845991752654
+    },
+    {
+      "feature": "min_command_length",
+      "mean_abs_shap": 0.034105570903032664
+    },
+    {
+      "feature": "identity_command_count",
+      "mean_abs_shap": 0.030548914610425595
+    },
+    {
+      "feature": "command_count",
+      "mean_abs_shap": 0.005760611013018939
+    },
+    {
+      "feature": "repeated_command_count",
+      "mean_abs_shap": 0.002520022946072761
+    },
+    {
+      "feature": "transition_count",
+      "mean_abs_shap": 0.0003169675844317061
+    }
+  ]
+}

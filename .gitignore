@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated files
+data/raw/*
+data/processed/*
+data/generated/*
+
+# Honeypot logs
+honeypot/logs/*
+*.log
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+# Temporary backup files
+*.backup
+/echo

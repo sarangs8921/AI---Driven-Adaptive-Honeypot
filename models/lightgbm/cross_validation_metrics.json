@@ -1,0 +1,93 @@
+{
+  "dataset": {
+    "records": 504,
+    "features": 30,
+    "classes": [
+      "benign",
+      "credential_access",
+      "execution",
+      "file_discovery",
+      "file_modification",
+      "multi_stage",
+      "persistence",
+      "privilege_activity",
+      "reconnaissance"
+    ],
+    "n_splits": 5,
+    "random_state": 42
+  },
+  "fold_results": [
+    {
+      "fold": 1,
+      "accuracy": 0.7722772277227723,
+      "macro_precision": 0.7861952861952862,
+      "macro_recall": 0.7685185185185186,
+      "macro_f1": 0.7673779404821778,
+      "weighted_f1": 0.7711592353901217
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.7821782178217822,
+      "macro_precision": 0.8017935767935769,
+      "macro_recall": 0.7861952861952861,
+      "macro_f1": 0.7876974716105152,
+      "weighted_f1": 0.7848057725027161
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.8514851485148515,
+      "macro_precision": 0.8537481037481037,
+      "macro_recall": 0.8501683501683501,
+      "macro_f1": 0.8439761905235051,
+      "weighted_f1": 0.845112063832785
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.8118811881188119,
+      "macro_precision": 0.8236041736041737,
+      "macro_recall": 0.8148148148148149,
+      "macro_f1": 0.8157283135544006,
+      "weighted_f1": 0.8127304393124453
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.88,
+      "macro_precision": 0.8828578828578828,
+      "macro_recall": 0.8787878787878789,
+      "macro_f1": 0.8744362186391172,
+      "weighted_f1": 0.8745807453416148
+    }
+  ],
+  "summary": {
+    "accuracy": {
+      "mean": 0.8195643564356436,
+      "std": 0.04090044243709164,
+      "min": 0.7722772277227723,
+      "max": 0.88
+    },
+    "macro_precision": {
+      "mean": 0.8296398046398046,
+      "std": 0.03496467178527236,
+      "min": 0.7861952861952862,
+      "max": 0.8828578828578828
+    },
+    "macro_recall": {
+      "mean": 0.8196969696969697,
+      "std": 0.04046151916027659,
+      "min": 0.7685185185185186,
+      "max": 0.8787878787878789
+    },
+    "macro_f1": {
+      "mean": 0.8178432269619431,
+      "std": 0.038329317905219665,
+      "min": 0.7673779404821778,
+      "max": 0.8744362186391172
+    },
+    "weighted_f1": {
+      "mean": 0.8176776512759366,
+      "std": 0.03810408755870015,
+      "min": 0.7711592353901217,
+      "max": 0.8745807453416148
+    }
+  }
+}

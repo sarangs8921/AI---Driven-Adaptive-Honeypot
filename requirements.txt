@@ -1,0 +1,31 @@
+# API and server
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+
+# Database and environment configuration
+psycopg[binary]==3.3.6
+python-dotenv==1.2.3
+
+# Authentication and password hashing
+PyJWT==2.15.1
+pwdlib[argon2]==0.3.1
+
+# Data processing and scientific computing
+numpy==2.5.3
+pandas==3.0.6
+scipy==1.18.1
+
+# Machine learning
+scikit-learn==1.9.1
+lightgbm==4.7.0
+joblib==1.6.0
+
+# Explainable AI and visualization
+shap==0.52.0
+matplotlib==3.11.2
+
+# SSH scenario generation
+paramiko==5.0.0
+
+# LLM integration
+groq==1.7.0

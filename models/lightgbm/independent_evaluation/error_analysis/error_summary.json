@@ -1,0 +1,181 @@
+{
+  "total_sessions": 180,
+  "correct_predictions": 146,
+  "incorrect_predictions": 34,
+  "accuracy": 0.8111111111111111,
+  "class_summary": {
+    "benign": {
+      "support": 20,
+      "correct": 20,
+      "errors": 0,
+      "recall": 1.0,
+      "predicted_as": {
+        "benign": 20
+      }
+    },
+    "credential_access": {
+      "support": 20,
+      "correct": 14,
+      "errors": 6,
+      "recall": 0.7,
+      "predicted_as": {
+        "file_discovery": 4,
+        "credential_access": 14,
+        "reconnaissance": 2
+      }
+    },
+    "execution": {
+      "support": 20,
+      "correct": 18,
+      "errors": 2,
+      "recall": 0.9,
+      "predicted_as": {
+        "execution": 18,
+        "multi_stage": 2
+      }
+    },
+    "file_discovery": {
+      "support": 20,
+      "correct": 18,
+      "errors": 2,
+      "recall": 0.9,
+      "predicted_as": {
+        "file_discovery": 18,
+        "reconnaissance": 1,
+        "persistence": 1
+      }
+    },
+    "file_modification": {
+      "support": 20,
+      "correct": 19,
+      "errors": 1,
+      "recall": 0.95,
+      "predicted_as": {
+        "file_modification": 19,
+        "file_discovery": 1
+      }
+    },
+    "multi_stage": {
+      "support": 20,
+      "correct": 7,
+      "errors": 13,
+      "recall": 0.35,
+      "predicted_as": {
+        "privilege_activity": 2,
+        "file_discovery": 4,
+        "multi_stage": 7,
+        "execution": 3,
+        "file_modification": 3,
+        "credential_access": 1
+      }
+    },
+    "persistence": {
+      "support": 20,
+      "correct": 18,
+      "errors": 2,
+      "recall": 0.9,
+      "predicted_as": {
+        "persistence": 18,
+        "file_discovery": 2
+      }
+    },
+    "privilege_activity": {
+      "support": 20,
+      "correct": 20,
+      "errors": 0,
+      "recall": 1.0,
+      "predicted_as": {
+        "privilege_activity": 20
+      }
+    },
+    "reconnaissance": {
+      "support": 20,
+      "correct": 12,
+      "errors": 8,
+      "recall": 0.6,
+      "predicted_as": {
+        "reconnaissance": 12,
+        "credential_access": 2,
+        "file_discovery": 5,
+        "persistence": 1
+      }
+    }
+  },
+  "confusion_pairs": [
+    {
+      "actual": "reconnaissance",
+      "predicted": "file_discovery",
+      "count": 5
+    },
+    {
+      "actual": "credential_access",
+      "predicted": "file_discovery",
+      "count": 4
+    },
+    {
+      "actual": "multi_stage",
+      "predicted": "file_discovery",
+      "count": 4
+    },
+    {
+      "actual": "multi_stage",
+      "predicted": "execution",
+      "count": 3
+    },
+    {
+      "actual": "multi_stage",
+      "predicted": "file_modification",
+      "count": 3
+    },
+    {
+      "actual": "multi_stage",
+      "predicted": "privilege_activity",
+      "count": 2
+    },
+    {
+      "actual": "execution",
+      "predicted": "multi_stage",
+      "count": 2
+    },
+    {
+      "actual": "reconnaissance",
+      "predicted": "credential_access",
+      "count": 2
+    },
+    {
+      "actual": "persistence",
+      "predicted": "file_discovery",
+      "count": 2
+    },
+    {
+      "actual": "credential_access",
+      "predicted": "reconnaissance",
+      "count": 2
+    },
+    {
+      "actual": "file_discovery",
+      "predicted": "reconnaissance",
+      "count": 1
+    },
+    {
+      "actual": "file_modification",
+      "predicted": "file_discovery",
+      "count": 1
+    },
+    {
+      "actual": "multi_stage",
+      "predicted": "credential_access",
+      "count": 1
+    },
+    {
+      "actual": "reconnaissance",
+      "predicted": "persistence",
+      "count": 1
+    },
+    {
+      "actual": "file_discovery",
+      "predicted": "persistence",
+      "count": 1
+    }
+  ]
+}
